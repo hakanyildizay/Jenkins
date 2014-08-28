@@ -1,0 +1,675 @@
+TJenkinsProject
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist JenkinsBuild/JenkinsProject.app/ResourceRules.plist
+cProcessPCH /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-ffolppdzbtujzcbkhuzddpcnmwfg/JenkinsProject-Prefix.pch.pch JenkinsProject/JenkinsProject-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-bkvkvbqrbgxuuqhitognsziqfcjh/JenkinsProject-Prefix.pch.pch JenkinsProject/JenkinsProject-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-figwtykenagftmfpprzavfvfxktn/JenkinsProject-Prefix.pch.pch JenkinsProject/JenkinsProject-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject normal armv7
+cLd /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject normal armv7s
+cLd /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject normal arm64
+cCreateUniversalBinary /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject normal armv7\ armv7s\ arm64
+cCopyStringsFile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/en.lproj/InfoPlist.strings JenkinsProject/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Images.xcassets
+cProcessInfoPlistFile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Info.plist /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Info.plist
+cGenerateDSYMFile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app.dSYM /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject
+cProcessProductPackaging /Users/hakanyildizay/Library/MobileDevice/Provisioning\ Profiles/23559c84-3359-4394-96a7-f33f6e433287.mobileprovision /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/embedded.mobileprovision
+cTouch /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent
+cCodeSign /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+cValidate /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000535505860000000000000094
+t1398080902
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000535505860000000000000096
+t1398080902
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053550586000000000000036B
+t1398080902
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053550587000000000000019E
+t1398080903
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005355058800000000004D7BC0
+t1398080904
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005355058A0000000000A90C10
+t1398080906
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005355058E0000000002759920
+t1398080910
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000535505ED0000000000000ADC
+t1398081005
+s2780
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+t1409232240
+s408
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app.dSYM
+t1409231742
+s102
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Base.lproj/Main.storyboardc
+t1409231741
+s170
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Info.plist
+t1409232240
+s1315
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject
+t1409232236
+s201544
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/PkgInfo
+t1409232240
+s8
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/ResourceRules.plist
+t1409231696
+s150
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/embedded.mobileprovision
+t1409231742
+s14677
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/en.lproj/InfoPlist.strings
+t1409231700
+s42
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m
+c0000000053FF110700000000000007DB
+t1409224967
+s2011
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Base.lproj/Main.storyboard
+c0000000053FF11070000000000000AC8
+t1409224967
+s2760
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Images.xcassets
+c0000000053FF11070000000000000088
+t1409224967
+s136
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Info.plist
+c0000000053FF110700000000000004C8
+t1409224967
+s1224
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Prefix.pch
+c0000000053FF11070000000000000158
+t1409224967
+s344
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m
+c0000000053FF110700000000000001F1
+t1409224967
+s497
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/en.lproj/InfoPlist.strings
+c0000000053FF1107000000000000002D
+t1409224967
+s45
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m
+c0000000053FF11070000000000000155
+t1409224967
+s341
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent
+t1409232240
+s503
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o
+t1409232236
+s65768
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject
+t1409232236
+s54088
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject.LinkFileList
+c0000000053FF2D6A00000000000001B8
+t1409232234
+s440
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o
+t1409232236
+s38768
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o
+t1409232236
+s4480
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o
+t1409232235
+s61716
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject
+t1409232236
+s53768
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject.LinkFileList
+c0000000053FF2D6A00000000000001B8
+t1409232234
+s440
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o
+t1409232235
+s39252
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o
+t1409232235
+s3852
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o
+t1409232236
+s61716
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject
+t1409232236
+s53772
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject.LinkFileList
+c0000000053FF2D6A00000000000001BB
+t1409232234
+s443
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o
+t1409232235
+s39252
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o
+t1409232235
+s3852
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/assetcatalog_dependencies.txt
+t1409232240
+s362
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/assetcatalog_generated_info.plist
+t1409232240
+s525
+
+N/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/hakanyildizay/Library/MobileDevice/Provisioning Profiles/23559c84-3359-4394-96a7-f33f6e433287.mobileprovision
+c0000000053FF24A90000000000003955
+t1409229993
+s14677
+
+N/var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-bkvkvbqrbgxuuqhitognsziqfcjh/JenkinsProject-Prefix.pch.pch
+t1409231699
+s88496
+
+N/var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-ffolppdzbtujzcbkhuzddpcnmwfg/JenkinsProject-Prefix.pch.pch
+t1409231699
+s88444
+
+N/var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-figwtykenagftmfpprzavfvfxktn/JenkinsProject-Prefix.pch.pch
+t1409231699
+s111036
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies28bb2dea64afb941^98c150ea64afb941^---0#1#1#--18"Check dependencies36"DABDC508-610E-447F-950F-D4A62D7DADC2-
+
+CCodeSign /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+s430925040.726346
+e430925041.046307
+r1
+xCodeSign
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"[1mCodeSign[0m [1mJenkinsBuild/JenkinsProject.app[0m56"[1mCodeSign[0m [1mJenkinsBuild/JenkinsProject.app[0m4f07baf064afb941^1adf0bf164afb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/0000000000000000^1056"[1mCodeSign[0m [1mJenkinsBuild/JenkinsProject.app[0m    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    Using code signing identity "iPhone Developer: Hakan YILDIZAY (7WW7WRHD7U)" and provisioning profile "iOS Team Provisioning Profile: com.*" (23559c84-3359-4394-96a7-f33f6e433287)    /usr/bin/codesign --force --sign 13FDEF48458B292D2803568787FA68837B036C15 --resource-rules=/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/ResourceRules.plist --entitlements /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app36"8D01BB41-B3CC-4313-A14A-38CCAC34E70D-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileAssetCatalog /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Images.xcassets
+s430925036.764780
+e430925040.589556
+r1
+xCompileAssetCatalog
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Images.xcassets
+o2014-08-28 16:24:00.440 IBCocoaTouchImageCatalogTool[3062:303] CFPreferences: user home directory at file:///Users/hakanyildizay/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/LaunchImage-700-568h@2x.png
+o/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Assets.car
+o/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"[1mCompileAssetCatalog[0m JenkinsBuild/JenkinsProject.app [1mJenkinsProject/Images.xcassets[0m98"[1mCompileAssetCatalog[0m JenkinsBuild/JenkinsProject.app [1mJenkinsProject/Images.xcassets[0mf1d8c3ec64afb941^feed96f064afb941^-621"2014-08-28 16:24:00.440 IBCocoaTouchImageCatalogTool[3062:303] CFPreferences: user home directory at file:///Users/hakanyildizay/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/LaunchImage-700-568h@2x.png/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Assets.car/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@86"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Images.xcassets/0000000000000000^1125"[1mCompileAssetCatalog[0m JenkinsBuild/JenkinsProject.app [1mJenkinsProject/Images.xcassets[0m    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Images.xcassets36"178ACA56-0DFC-4E19-AE78-073FFA1E8816-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925036.005902
+e430925036.635128
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m222"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o [1mJenkinsProject/AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler88b801ec64afb941^3598a2ec64afb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m0000000000000000^3682"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o [1mJenkinsProject/AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/arm64 -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-figwtykenagftmfpprzavfvfxktn/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o36"E63572F0-F583-4988-B73B-AC4522EA696B-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925035.989314
+e430925036.623796
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m228"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o [1mJenkinsProject/ViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler465bfdeb64afb941^6cb19fec64afb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m0000000000000000^3700"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o [1mJenkinsProject/ViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/arm64 -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-figwtykenagftmfpprzavfvfxktn/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o36"19F7E123-429A-4D05-AB68-AA5003632722-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925036.006597
+e430925036.577342
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m208"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o [1mJenkinsProject/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler37c701ec64afb941^eace93ec64afb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m0000000000000000^3640"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o [1mJenkinsProject/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/arm64 -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-figwtykenagftmfpprzavfvfxktn/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o36"8EF43E84-734B-40AA-8466-B063B8D7F5CC-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925034.319276
+e430925035.989039
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m222"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o [1mJenkinsProject/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compileredd351ea64afb941^db31fdeb64afb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m0000000000000000^3682"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o [1mJenkinsProject/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/armv7 -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-ffolppdzbtujzcbkhuzddpcnmwfg/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o36"A7347D9A-9F9A-4E1D-86BA-6D2260D6568B-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925034.318981
+e430925035.922242
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m228"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o [1mJenkinsProject/ViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler5fd151ea64afb941^0919eceb64afb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m0000000000000000^3700"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o [1mJenkinsProject/ViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/armv7 -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-ffolppdzbtujzcbkhuzddpcnmwfg/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o36"D1229987-A831-40DD-A50D-EEE07C5C2628-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925034.319498
+e430925035.766547
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m208"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o [1mJenkinsProject/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere7e051ea64afb941^253dc4eb64afb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m0000000000000000^3640"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o [1mJenkinsProject/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/armv7 -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-ffolppdzbtujzcbkhuzddpcnmwfg/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o36"95628EF7-868E-43CD-853B-5E4844244D78-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925035.767299
+e430925036.054395
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m224"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o [1mJenkinsProject/AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler3483c4eb64afb941^6ced0dec64afb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m0000000000000000^3689"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o [1mJenkinsProject/AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/armv7s -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-bkvkvbqrbgxuuqhitognsziqfcjh/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o36"EECFB8BE-9CB7-44A9-B5CF-4EDAF9C2504C-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925034.320542
+e430925036.006082
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m230"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o [1mJenkinsProject/ViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler392b52ea64afb941^969201ec64afb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m0000000000000000^3707"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o [1mJenkinsProject/ViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/armv7s -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-bkvkvbqrbgxuuqhitognsziqfcjh/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/ViewController.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o36"030EA2FF-30F5-40BD-88B9-135B1AC01FA4-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileC build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430925035.922781
+e430925036.005640
+r1
+xCompileC
+xbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m
+d/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m210"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o [1mJenkinsProject/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerc153eceb64afb941^9b7201ec64afb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m0000000000000000^3647"[1mCompileC[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o [1mJenkinsProject/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=226 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-generated-files.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-own-target-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-all-target-headers.hmap -iquote /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject-project-headers.hmap -I/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources/armv7s -I/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/DerivedSources -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -include /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-bkvkvbqrbgxuuqhitognsziqfcjh/JenkinsProject-Prefix.pch -MMD -MT dependencies -MF /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.dia -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/main.m -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o36"1A7494EC-EFB1-48E3-A239-F97A8D228884-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CCompileStoryboard /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/Base.lproj/Main.storyboard
+r0
+
+CCopyStringsFile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/en.lproj/InfoPlist.strings JenkinsProject/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist JenkinsBuild/JenkinsProject.app/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject normal armv7\ armv7s\ arm64
+s430925036.749117
+e430925036.763920
+r1
+xCreateUniversalBinary
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Create universal binary /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject112"[1mCreateUniversalBinary[0m [1mJenkinsBuild/JenkinsProject.app/JenkinsProject[0m normal armv7\ armv7s\ arm64f5d7bfec64afb941^c990c3ec64afb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject0000000000000000^1026"[1mCreateUniversalBinary[0m [1mJenkinsBuild/JenkinsProject.app/JenkinsProject[0m normal armv7\ armv7s\ arm64    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject -output /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject36"264624C3-1210-4A7A-BB3E-CD9C8CC84DBC-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CGenerateDSYMFile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app.dSYM /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject
+s430925040.618500
+e430925040.719780
+r1
+xGenerateDSYMFile
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app.dSYM
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Generate /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app.dSYM116"[1mGenerateDSYMFile[0m [1mJenkinsBuild/JenkinsProject.app.dSYM[0m JenkinsBuild/JenkinsProject.app/JenkinsProjectb7639ef064afb941^1844b8f064afb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app.dSYM/0000000000000000^658"[1mGenerateDSYMFile[0m [1mJenkinsBuild/JenkinsProject.app.dSYM[0m JenkinsBuild/JenkinsProject.app/JenkinsProject    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/JenkinsProject -o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app.dSYM36"90C9802F-1DDD-48F3-987B-5D990E8A1D4B-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CLd /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject normal arm64
+s430925036.636565
+e430925036.719715
+r1
+xLd
+x/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject
+xnormal
+xarm64
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject.LinkFileList
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/ViewController.o
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/AppDelegate.o
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Link /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject124"[1mLd[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject normal arm644a07a3ec64afb941^2940b8ec64afb941^---0#0#1#--1433"[1mLd[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject normal arm64    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -filelist /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject_dependency_info.dat -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/arm64/JenkinsProject36"D3EC81EB-ABA3-4829-9C54-E32B9A837F88-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CLd /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject normal armv7
+s430925036.635935
+e430925036.747968
+r1
+xLd
+x/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject
+xnormal
+xarmv7
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject.LinkFileList
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/ViewController.o
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/AppDelegate.o
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Link /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject124"[1mLd[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject normal armv793dfa2ec64afb941^5b7bbfec64afb941^---0#0#1#--1433"[1mLd[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject normal armv7    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -filelist /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject_dependency_info.dat -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7/JenkinsProject36"C6A0BAB8-B969-4138-83E7-7FE7D18CE86D-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CLd /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject normal armv7s
+s430925036.636276
+e430925036.748383
+r1
+xLd
+x/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject
+xnormal
+xarmv7s
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject.LinkFileList
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/ViewController.o
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/AppDelegate.o
+d/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Link /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject126"[1mLd[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject normal armv7sf5f3a2ec64afb941^6c96bfec64afb941^---0#0#1#--1439"[1mLd[0m build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject normal armv7s    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -F/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild -filelist /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject_dependency_info.dat -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/Objects-normal/armv7s/JenkinsProject36"07F59FAA-09C7-4DC0-A39C-3D0579F87575-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CProcessInfoPlistFile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Info.plist /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Info.plist
+s430925040.590142
+e430925040.617959
+r1
+xProcessInfoPlistFile
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Info.plist
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Process /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Info.plist120"[1mProcessInfoPlistFile[0m JenkinsBuild/JenkinsProject.app/Info.plist [1mJenkinsProject/JenkinsProject-Info.plist[0m9e2697f064afb941^93359ef064afb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Info.plist0000000000000000^1035"[1mProcessInfoPlistFile[0m JenkinsBuild/JenkinsProject.app/Info.plist [1mJenkinsProject/JenkinsProject-Info.plist[0m    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsProject/JenkinsProject-Info.plist -genpkginfo /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/ResourceRules.plist -additionalcontentfile /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/assetcatalog_generated_info.plist -o /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/Info.plist36"EEBCE9C1-6860-4507-B131-3DE465206A48-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CProcessPCH /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-bkvkvbqrbgxuuqhitognsziqfcjh/JenkinsProject-Prefix.pch.pch JenkinsProject/JenkinsProject-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-ffolppdzbtujzcbkhuzddpcnmwfg/JenkinsProject-Prefix.pch.pch JenkinsProject/JenkinsProject-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/zq/y6t3wj_x1wg4lkv9by0fffx40000h1/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/JenkinsProject-Prefix-figwtykenagftmfpprzavfvfxktn/JenkinsProject-Prefix.pch.pch JenkinsProject/JenkinsProject-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent
+s430925040.724605
+e430925040.725971
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection246"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent[0m246"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent[0m1990b9f064afb941^e4d9b9f064afb941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent003420bcddffdf42^825"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent[0m    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/hakanyildizay/Documents/Projects/Jenkins/build/JenkinsProject.build/Release-iphoneos/JenkinsProject.build/JenkinsProject.xcent36"8110FFEA-D315-476D-B53C-36A956AD8F26-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CProcessProductPackaging /Users/hakanyildizay/Library/MobileDevice/Provisioning\ Profiles/23559c84-3359-4394-96a7-f33f6e433287.mobileprovision /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/embedded.mobileprovision
+r0
+
+CTouch /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+s430925040.720453
+e430925040.724231
+r1
+xTouch
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app45"[1mTouch[0m JenkinsBuild/JenkinsProject.app177eb8f064afb941^c269b9f064afb941^---0#0#1#--406"[1mTouch[0m JenkinsBuild/JenkinsProject.app    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app36"438E6CD4-FA7A-4AB6-8F41-0D57D9D31CFF-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+
+CValidate /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+s430925041.046716
+e430925041.159118
+r1
+xValidate
+x/Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"[1mValidate[0m [1mJenkinsBuild/JenkinsProject.app[0m56"[1mValidate[0m [1mJenkinsBuild/JenkinsProject.app[0m92050cf164afb941^51be28f164afb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app/0000000000000000^558"[1mValidate[0m [1mJenkinsBuild/JenkinsProject.app[0m    cd /Users/hakanyildizay/Documents/Projects/Jenkins    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export PRODUCT_TYPE=com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/hakanyildizay/Documents/Projects/Jenkins/JenkinsBuild/JenkinsProject.app36"3F244731-AC1B-4B78-AF16-A47AF000966F-
+b5E72E6D4-CEC5-4D0D-8FF7-46846CDDB81F
+

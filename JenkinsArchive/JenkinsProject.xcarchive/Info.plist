@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/JenkinsProject.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.ingbank.JenkinsProject</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: Hakan YILDIZAY (7WW7WRHD7U)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2014-08-28T13:24:05Z</date>
+	<key>Name</key>
+	<string>JenkinsProject</string>
+	<key>SchemeName</key>
+	<string>JenkinsProject</string>
+</dict>
+</plist>
